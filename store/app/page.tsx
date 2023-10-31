@@ -6,7 +6,7 @@ import Logo from "./logo";
 
 export default function Home() {
   return (
-    <main className="flex flex-col justify-around w-full h-full">
+    <main className="flex flex-col justify-around w-full h-full min-w-[1300px] min-h-[800px] overflow-auto">
       <section className="flex justify-around">
         <section className="flex justify-center items-center">
           <Logo />
