@@ -1,3 +1,8 @@
+import Logo from "@/app/(root)/_components/Logo"; 
+import Login from "@/app/auth/login/Login";
+import Update from "@/app/(root)/_components/Update";
+import Notice from "@/app/(root)/_components/Notice";
+
 export default function Home() {
   return (
     <main className="flex h-full min-h-[800px] w-full min-w-[1300px] flex-col justify-around overflow-auto">
@@ -10,7 +15,7 @@ export default function Home() {
         </section>
       </section>
       <section className="flex items-center justify-around">
-        <Login />
+        <Login/>
         <Update />
         <Notice />
       </section>
