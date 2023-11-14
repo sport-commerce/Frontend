@@ -16,6 +16,7 @@ module.exports = {
       },
     },
     extend: {
+      'brightness-10': {},
       colors: {
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
